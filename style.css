@@ -114,8 +114,8 @@ table {
 
   .course-list {
     display: flex;
-    justify-content: space-between;  
-    margin: 40px;
+    justify-content: space-around;  
+    margin: 30px;
     padding-left: 200px;
     padding-right: 200px;
   }
@@ -376,13 +376,15 @@ table {
   
   .course-card-title-badge-3 {
     background: rgb(225, 116, 65);
+    position: relative;
+    left: 50px;
     border-radius: 30px;
     padding: 5px;
     color: white;
     font-weight: 500;
     font-size: 12px;
   }
-  
+
   .course-card-meta-area-3 {
     display: flex;
     padding: 15px 0;
